@@ -5,7 +5,7 @@ Multiple Machine Learning Classifiers to identify various types of lung disease:
 Used VGG-16 and ResNet50 to build pneumonia and COVID classifiers. 
 Pneumonia classification with 92%, 98%, and 95% accuracy on test batches. 
 COVID-19 validation accuracy was above 96% at end. 
-The same ensemble that was used on COVID-19 was used on lung cancer to classify adenocarcinoma(aca), sqaumous cell carcinoma(scc), and healthy lung tissue. A 96% accuracy was reached towards the end of training. 
+The same ensemble that was used on COVID-19 was used on lung cancer to classify adenocarcinoma(aca), sqaumous cell carcinoma(scc), and healthy lung tissue. A 96% accuracy was reached towards the end of training.
 
 Example image of pneumonia x-ray:
 
@@ -29,13 +29,9 @@ Example image of healthy lung tissue:
 ![lungn17](https://user-images.githubusercontent.com/63683831/108273320-3d89be80-7128-11eb-8e32-d507838117d4.jpeg)
 
 
-Architecture of pneumonia model: VGG-16(VGG-16 architecture pretrained on ImageNet with modified top).
+Architecture of pneumonia model: VGG-16(VGG-16 architecture pretrained on ImageNet with modified top) see VGG-16 architecture at bottom above ResNet50.
 
-VGG Architecture:
-
-![vgg](https://miro.medium.com/max/850/1*_Lg1i7wv1pLpzp2F4MLrvw.png)
-
-Architecture of COVID-19 Model(Ensemble of VGG-16 and ResNet50 models pretrained on ImageNet below):
+Architecture of COVID-19 Model(Ensemble of VGG-16 and ResNet50 models pretrained on ImageNet below) R:
 
 ![Screenshot (172)](https://user-images.githubusercontent.com/63683831/107109321-5626da00-67f4-11eb-937b-61aaac181f73.png)
 
@@ -48,12 +44,15 @@ ResNet Architecture:
 
 ![rowan](https://www.researchgate.net/publication/331364877/figure/fig3/AS:741856270901252@1553883726825/Left-ResNet50-architecture-Blocks-with-dotted-line-represents-modules-that-might-be.png)
 
-Works Cited:
+VGG Architecture:
 
-https://arxiv.org/abs/1512.03385
+![vgg](https://miro.medium.com/max/850/1*_Lg1i7wv1pLpzp2F4MLrvw.png)
+
+Datasets:
+
 
 https://www.kaggle.com/andrewmvd/covid19-ct-scans
 
 https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
-https://arxiv.org/abs/1409.1556
+https://www.kaggle.com/andrewmvd/lung-and-colon-cancer-histopathological-images(colon data discarded)
