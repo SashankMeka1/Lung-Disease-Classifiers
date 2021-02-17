@@ -38,7 +38,8 @@ VGG Architecture:
 Architecture of COVID-19 Model(Ensemble of VGG-16 and ResNet50 models pretrained on ImageNet below):
 
 ![Screenshot (172)](https://user-images.githubusercontent.com/63683831/107109321-5626da00-67f4-11eb-937b-61aaac181f73.png)
-COVID-19 Final Graph:
+
+Below is the graph of the final training epoch for the COVID-19 classifier:
 
 ![download](https://user-images.githubusercontent.com/63683831/107132427-ea944980-6893-11eb-8ee2-871e7f9db65c.png)
 
