@@ -2,7 +2,7 @@
 Multiple Machine Learning Classifiers to identify various types of lung disease
 # Lung-Disease-Classifiers
 Multiple Machine Learning Classifiers to identify various types of lung disease: pneumonia, COVID-19.
-Used VGG-16 and ResNet50 to build pneumonia and COVID classifiers. 
+Used VGG-16 and ResNet50 to build pneumonia and COVID classifiers. I wanted to see whether transfer learning could be applied to a problem such as medical imaging while being pretrained on ImageNet, a general computer vision task. It performed quite well.
 Pneumonia classification with 92%, 98%, and 95% accuracy on test batches. 
 COVID-19 validation accuracy was above 96% at end. 
 The same ensemble that was used on COVID-19 was used on lung cancer to classify adenocarcinoma(aca), sqaumous cell carcinoma(scc), and healthy lung tissue. A 96% accuracy was reached towards the end of training.
