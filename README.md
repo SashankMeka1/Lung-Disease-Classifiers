@@ -31,7 +31,7 @@ Example image of healthy lung tissue:
 
 Architecture of pneumonia model: VGG-16(VGG-16 architecture pretrained on ImageNet with modified top) see VGG-16 architecture at bottom above ResNet50.
 
-Architecture of COVID-19 Model(Ensemble of VGG-16 and ResNet50 models pretrained on ImageNet below) R:
+Architecture of COVID-19 Model(Ensemble of VGG-16 and ResNet50 models pretrained on ImageNet below) picture to be updated:
 
 ![Screenshot (172)](https://user-images.githubusercontent.com/63683831/107109321-5626da00-67f4-11eb-937b-61aaac181f73.png)
 
